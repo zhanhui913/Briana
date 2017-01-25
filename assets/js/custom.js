@@ -31,7 +31,7 @@
 		//$('#intro').backstretch(['assets/images/bg4.jpg']);
 
 		$('#intro').backstretch([
-			'assets/images/bg1.png'
+			'assets/images/bg1.jpg'
 		], {duration: 3000, fade: 750});
 
 		/* ---------------------------------------------- /*
@@ -80,33 +80,14 @@
 		 }, { offset: '70%', triggerOnce: true });
 
 		/* ---------------------------------------------- /*
-		 * WOW Animation When You Scroll
-		/* ---------------------------------------------- */
-
-		wow = new WOW({
-			mobile: false
-		});
-		wow.init();
-
-		/* ---------------------------------------------- /*
 		 * Owl slider 
 		/* ---------------------------------------------- */
 
 		$("#owl-clients").owlCarousel({
-			items : 1,
+			items : 4,
 			slideSpeed : 300,
 			paginationSpeed : 400,
 			autoPlay: 5000
-		});
-
-		/* ---------------------------------------------- /*
-		 * Rotate
-		/* ---------------------------------------------- */
-
-		$(".rotate").textrotator({
-			animation: "dissolve",
-			separator: "|",
-			speed: 3000
 		});
 
 		/* ---------------------------------------------- /*
