@@ -1,7 +1,7 @@
 /**
  * Support: web-master72@yandex.ru;
  * Author: web-master72
- * 
+ *
  *
 /* ---------------------------------------------- /*
  * General styles
@@ -21,7 +21,7 @@ img {
 }
 
 a {
-	color: #CF000F;
+	color: #3454B4;
 }
 
 a:hover {
@@ -35,7 +35,7 @@ a:hover {
 h1, h2, h3, h4, h5, h6 {
 	font: 400 46px/1.2 'Montserrat', serif, sans-serif;
 	margin: 5px 0 5px;
-	color:#CF000F;
+	color:#3454B4;
 }
 
 h1 {
@@ -101,7 +101,7 @@ a,
 .progress,
 .form-control,
 .modal-content,
-.form-control:hover, 
+.form-control:hover,
 .form-control:focus {
 	-webkit-box-shadow: none;
 			box-shadow: none;
@@ -215,7 +215,7 @@ a,
 
 .btn-custom-1, .btn-custom-2 {
 	background: transparent;
-	border: 2px solid #CF000F;
+	border: 2px solid #3454B4;
 	padding: 15px 25px;
 }
 
@@ -224,8 +224,8 @@ a,
 }
 
 .btn-custom-1:hover, .btn-custom-1:focus, .btn-custom-1:active, .btn-custom-1.active {
-	background: #CF000F;
-	border: 2px solid #CF000F;
+	background: #3454B4;
+	border: 2px solid #3454B4;
 	color: #FFF;
 }
 
@@ -256,7 +256,7 @@ a,
 }
 
 .skill-bar .skill-rate-on {
-	background: #353535;
+	background: #3454B4;
 }
 
 .skill-rate-on, .skill-rate-off {
@@ -439,12 +439,12 @@ h3 > .fa {
 	color: #FFF !important;
 }
 
-.navbar-custom .nav li a:hover, 
-.navbar-custom .nav li a:focus, 
+.navbar-custom .nav li a:hover,
+.navbar-custom .nav li a:focus,
 .navbar-custom .nav li.active {
 	background: none;
 	outline: 0;
-	color: #CF000F;
+	color: #3454B4;
 }
 
 .navbar-custom .navbar-brand {
@@ -453,7 +453,7 @@ h3 > .fa {
 }
 
 .navbar-custom .navbar-brand:hover{
-	color:#CF000F;
+	color:#3454B4;
 }
 
 .navbar-custom .navbar-nav > li.active {
@@ -487,7 +487,7 @@ h3 > .fa {
 }
 
 .navbar-color .navbar-nav > li.active {
-	border-bottom: 3px solid #CF000F;
+	border-bottom: 3px solid #3454B4;
 }
 
 .custom-collapse .navbar-nav {
@@ -510,11 +510,11 @@ h3 > .fa {
 #intro {
 	padding: 260px 0 160px 0;
 	text-align: center;
-	color: #FFF;
+	color: #3454B4;
 }
 
 #intro h1, #intro h2, #intro h3, #intro h4, #intro h5, #intro h6 {
-	color: #FFF;
+	color: #000000;
 }
 
 
@@ -576,7 +576,7 @@ h3 > .fa {
 }
 
 .widget-social li a:hover {
-	background: #CF000F;
+	background: #3454B4;
 }
 
 /* ---------------------------------------------- /*
@@ -674,11 +674,12 @@ h3 > .fa {
 }
 
 .portfolio-item:hover .portfolio-item-preview {
-	-webkit-transform: scale(1.1) rotate(2deg);
+	/*-webkit-transform: scale(1.1) rotate(2deg);
 	   -moz-transform: scale(1.3) rotate(3deg);
 		-ms-transform: scale(1.3) rotate(3deg);
 		 -o-transform: scale(1.3) rotate(3deg);
 			transform: scale(1.2) rotate(3deg);
+			*/
 }
 
 .portfolio-item:hover .portfolio-item-description {
@@ -708,7 +709,7 @@ h3 > .fa {
 }
 
 #contact h1, #contact h2, #contact h3, #contact h4, #contact h5, #contact h6 {
-	color: #CF000F;
+	color: #3454B4;
 }
 
 #contact .form-control {
@@ -761,7 +762,7 @@ h3 > .fa {
 	left: 0;
 	margin: 0;
 	text-align: center;
-	top: 65%; 
+	top: 65%;
 }
 
 .status-mes h4 {
@@ -788,5 +789,3 @@ h3 > .fa {
 	}
 
 }
-
-
